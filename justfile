@@ -81,5 +81,8 @@ get_toolbox:
 toolbox:
     @data_analyst_agent/toolbox --tools-file "data_analyst_agent/tools.yaml" --port 7000
 
+toolbox-ui:
+    @data_analyst_agent/toolbox --ui --tools-file "data_analyst_agent/tools.yaml"
+
 web:
     @adk web
