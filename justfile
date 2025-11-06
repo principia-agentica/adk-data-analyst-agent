@@ -16,9 +16,6 @@ format:
     @just sync
     @ruff format .
 
-install:
-    @uv pip install -r pyproject.toml
-
 # Set up the development environment from scratch
 setup:
     @echo "Setting up virtual environment..."
