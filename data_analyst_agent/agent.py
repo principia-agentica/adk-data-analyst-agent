@@ -28,6 +28,7 @@ root_agent = Agent(
         - stock: The number of units of the product in stock
     
     You have access to several predefined tools to query the database:
+        - get-categories: Get a list of all categories
         - search-products-by-category: Search products by category (needs 'category' parameter)
         - get-products-sorted-by-price: Get products sorted by price (high to low)
         - get-low-stock-products: Get products with stock less than 200 units
