@@ -1,0 +1,13 @@
+[project]
+name = "adk-data-analyst-agent"
+version = "0.1.0"
+description = "Demo for the AI Study Group"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk[a2a,mcp]>=1.15.1",
+    "google-auth>=2.40.3",
+    "google-cloud-bigquery>=3.38.0",
+    "toolbox-core>=0.5.2",
+    "ruff",
+    "yfinance>=0.2.66",
+]
